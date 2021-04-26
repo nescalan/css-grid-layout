@@ -27,76 +27,76 @@
   @extend .element;
   background: papayawhip;
   position: absolute;
-  // left: ;
-  // top: ;
+  left: 0;
+  top: 0;
 }
 
 .element2 {
   @extend .element;
   background: papayawhip;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .element3 {
   @extend .element;
   background: papayawhip;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 0;
+  top: 100%;
+  transform: translate(0, -100%);
 }
 
 .element4 {
   @extend .element;
   background: pink;
   position: absolute;
-  // left: ;
-  // transform: ;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .element5 {
   @extend .element;
   background: pink;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .element6 {
   @extend .element;
   background: pink;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 100%;
+  top: 100%;
+  transform: translate(-100%, -100%);
 }
 
 .element7 {
   @extend .element;
   background: lightcyan;
   position: absolute;
-  // left: ;
-  // transform: ;
+  left: 100%;
+  transform: translate(-100%, 0);
 }
 
 .element8 {
   @extend .element;
   background: lightcyan;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 100%;
+  top: 50%;
+  transform: translate(-100%, -50%);
 }
 
 .element9 {
   @extend .element;
   background: lightcyan;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 100%;
+  top: 100%;
+  transform: translate(-100%, -100%);
 }
