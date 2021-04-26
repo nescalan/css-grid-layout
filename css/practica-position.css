@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: "Lato", sans-serif;
+  width: 550px;
+}
+.row {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+  position: relative;
+}
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6 {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
