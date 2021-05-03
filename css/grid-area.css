@@ -1,0 +1,21 @@
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "card-1 card-2";
+  width: 100%;
+  height: 100vh;
+}
+.item-one {
+  background-image: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4159832.jpg);
+  background-repeat: no-repeat;
+  grid-area: card-1;
+}
+.item-two {
+  background-color: #eab9aa;
+  grid-area: card-2;
+}
+.item-three {
+  background-color: #e2583d;
+  grid-area: card-3;
+}
