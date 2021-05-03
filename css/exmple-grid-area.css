@@ -1,37 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --blue: #81ccf1;
+  --yellow: #efc66a;
+  --pink: #d8a6cb;
+  --dark-pink: #c59ece;
+  --purple: #9996cb;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(
+    to top,
+    #9996cb,
+    #ab99cc,
+    #bb9dcd,
+    #caa1cc,
+    #d8a6cb
+  );
+  margin: 0;
+  height: 100vh;
+}
+
 .container {
-  width: 80%;
-  height: 800px;
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
-  grid-template-areas:
-    "item-1 item-1"
-    "item-2 item-3"
-    "item-4 item-4";
-  margin: 0 auto;
-}
-.item-one {
-  grid-area: item-1;
-  background: #0022fe;
-  height: 275px;
-}
-.item-two {
-  height: 275px;
-  grid-area: item-2;
-  background-color: #ff1501;
-}
-.item-three {
-  height: 275px;
-  grid-area: item-3;
-  place-self: stretch;
-  background-color: #007606;
-}
-.item-four {
-  height: 275px;
-  grid-area: item-4;
-  background-color: #ff7800;
+  grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+  height: 100vh;
 }
